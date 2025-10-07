@@ -3,9 +3,255 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Formulario</title>
+
+    <style>
+        body{background-color: rgb(218, 218, 218); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: small;}
+
+        input{background-color: rgb(201, 206, 202);}
+
+        h1{text-align: center;}
+    </style>
+
 </head>
 <body>
+
+    <h1>
+        Todos los inputs
+    </h1>
+
+    <hr>
+
+<!--Están acomodados segun como vimos en clase y luego conforme aparecen aquí-->
+
+    <form action="">
+        <label for="Adolfo Emiliano">
+            Nombre(s):
+        </label>
+        <br>
+        <input type="text" name="Nombre(s):" id="Adolfo Emiliano" placeholder="Adolfo Emiliano">
+
+            <br>
+            <br>
+
+        <label for="Nava Pérez">
+            Apellidos:
+        </label>
+        <br>
+        <input type="text" name="Apellidos:" id="Nava Pérez" placeholder="Nava Pérez">
+
+            <br>
+            <br>
+
+        <label for="adolfonava8162@gmail.com">
+            Correo electrónico:
+        </label>
+        <br>
+        <input type="email" name="Correo electrónico:" id="adolfonava8162@gmail.com" placeholder="adolfonava8162@gmail.com">
+
+            <br>
+            <br>
+
+        <label for="8120340186">
+            Telefóno:
+        </label>
+        <br>
+        <input type="tel" name="Telefóno:" id="8120340186" placeholder="8120340186">
+
+            <br>
+            <br>
+
+        <label for="Presiona el siguiente botón para obtener un regalo sorprendente">
+            Sorpresa...
+        </label>
+        <br>
+        <input type="button" name="Sorpresa..." id="Presiona el siguiente botón para obtener un regalo sorprendente" placeholder="Clic aquí">
+
+            <br>
+            <br>
+
+        <label for="Si no le picas repruebas">
+            Tigres el mejor equipo:
+        </label>
+        <br>
+        <input type="checkbox" name="Tigres el mejor equipo:" id="Si no le picas repruebas">
+
+            <br>
+            <br>
+
+        <label for="El mio es azul">
+            Tu color favorito:
+        </label>
+        <br>
+        <input type="color" name="Tu color favorito:" id="El mio es azul">
+
+            <br>
+            <br>
+
+        <label for="18/03/24">
+            Fecha importante para ti:
+        </label>
+        <br>
+        <input type="date" name="Fecha importante para ti:" id="18/03/24">
+
+            <br>
+            <br>
+        
+        <label for="02/02/08 a las 11:58 PM">
+            Fecha y hora de tu nacimiento:
+        </label>
+        <br>
+        <input type="datetime-local" name="Fecha y hora de tu nacimiento:" id="02/02/08 a las 11:58 PM">
+
+            <br>
+            <br>
+
+        <label for="Subelo en formato pdf">
+            Sube esta tarea:
+        </label>
+        <br>
+        <input type="file" name="Sube esta tarea:" id="Subelo en formato pdf">
+
+            <br>
+            <br>
+
+        <label for="No lo reveles">
+            Secreto...
+        </label>
+        <br>
+        <input type="hidden" name="Secreto..." id="No lo reveles" value="12345">
+
+            <br>
+            <br>
+
+        <label for="Porfavor no hagas clic">
+            Haz clic aquí para obtener mas información:
+        </label>
+        <br>
+        <input type="image" name="Haz clic aquí para obtener mas información:"  id="Porfavor no hagas clic" src="img/a.jpg" alt="" height="75px" width="250px">
+
+            <br>
+            <br>
+
+        <label for="Nisiquiera yo conozco cual es">
+            Mes del día del estudiante:
+        </label>
+        <br>
+        <input type="month" name="Mes del día del estudiante:" id="Nisiquiera yo conozco cual es">
+
+            <br>
+            <br>
+
+        <label for="Son infinitos">
+            El último número que existe:
+        </label>
+        <br>
+        <input type="number" name="El último número que existe" id="Son infinitos" placeholder="99999999999999999999">
+
+            <br>
+            <br>
+
+        <label for="Creo que así no se puede pero nunca lo he intentado">
+            Contraseña para robar un banco:
+        </label>
+        <br>
+        <input type="password" name="Contraseña para robar un banco:" id="Creo que no se puede pero nunca lo he intentado" placeholder="Contraseña">
+
+            <br>
+            <br>
+
+        <fieldset>
+        <legend>Selecciona la mejor materia:</legend>
+    <div>
+        <label for="IDAI obvio">
+            IDAI
+        </label>
+        <br>
+        <input type="radio" id="IDAI obvio" name="contact" value="IDAI">
+
+        <br>
+
+        <label for="Algebra obvio">
+            Algebra
+        </label>
+        <br>
+        <input type="radio" id="Algebra obvio" name="contact" value="Algebra">
+
+        <br>
+
+        <label for="Inglés obvio">
+            Inglés I
+        </label>
+        <br>
+        <input type="radio" id="Inglés obvio" name="contact" value="Inglés I">
+    </div>    
+        </fieldset>
+
+            <br>
+            <br>
+
+        <label for="Basta porfavor">
+            Que tan cansado estas de las cuentas de Contabilidad:
+        </label>
+        <br>
+        <input type="range" name="Que tan cansado estas de las cuentas de Contabilidad:" id="Basta porfavor" min="0" max="5">
+
+            <br>
+            <br>
+
+        <label for="Try again bro">
+            Mejor comida mexicana:
+        </label>
+        <br>
+        <input type="text" id="Try again bro" placeholder="Flautas">
     
+    <div>
+        <br>
+        <input type="reset" value="Again">
+    </div>
+
+            <br>
+            <br>
+
+        <label for="No recuerdo ni cuantos años tenía">
+            Busca la canción mas famosa del 2018:
+        </label>
+        <br>
+        <input type="search" name="Busca la canción mas famosa del 2018:" id="No recuerdo cuantos años tenía" placeholder="Rockstar">
+        
+            <br>
+            <br>
+
+        <label for="No veas el horario tramposo">
+            Hora de salida en la hora 6:
+        </label>
+        <br>
+        <input type="time" name="Hora de salida en la hora 6:" id="No veas el horario tramposo">
+
+            <br>
+            <br>
+
+        <label for="Es youtube obvio">
+            Url de mejor página de entretenimiento:
+        </label>
+        <br>
+        <input type="url" name="Url de mejor página de entretenimiento:" id="Es youtube obvio" placeholder="https://ayuda.com">
+
+            <br>
+            <br>
+
+        <label for="Son muchas">
+            Cuantas semanas tiene un año:
+        </label>
+        <br>
+        <input type="week" name="Cuantas semanas tiene un año:" id="Son muchas">
+
+            <br>
+            <br>
+
+            <hr>
+
+        <input type="submit" value="Enviar datos">
+    </form>
 </body>
 </html>
